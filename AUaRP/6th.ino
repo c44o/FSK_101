@@ -8,3 +8,16 @@ void setup ()
   pinMode (greenLed, OUTPUT) ;
 }
 
+void loop () 
+{
+  digitalWrite (redLed, HIGH) ;
+  delay (1000) ;
+  digitalWrite (redLed, LOW) ;
+  digitalWrite (yellowLet, HIGH) ;
+  delay (200) ;
+  digitalWrite (yellowLed, LOW) ;
+  digitalWrite (greenLed, HIGH) ;
+  delay (1000) ;
+  digitalWrite (greenLed, LOW) ;
+}
+
