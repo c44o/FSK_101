@@ -4,3 +4,7 @@ void setup ()
 {
   pinMode (buzzer, OUTPUT) ;
 }
+
+void loop () 
+{
+}
