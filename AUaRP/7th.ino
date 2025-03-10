@@ -16,6 +16,10 @@ void loop ()
           delay (2) ;
           digitalWrite (buzzer, LOW) ;
           delay (6);
+          digitalWrite (buzzer, HIGH) ;
+          delay (2) ;
+          digitalWrite (buzzer, LOW) ;
+          delay (6);
         }
       for (i = 0; i <100; i++) 
       {
