@@ -8,7 +8,7 @@ void loop ()
   int i ;
   while (1) 
     {
-      i = analogRead (5) ;
+      i = analogRead (6) ;
       if (i> 200) 
       {
         digitalWrite (8, HIGH) ;
