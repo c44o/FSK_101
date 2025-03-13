@@ -11,7 +11,7 @@ void loop ()
       i = analogRead (6) ;
       if (i> 200) 
       {
-        digitalWrite (8, HIGH) ;
+        digitalWrite (18, HIGH) ;
       }
       else 
       {
