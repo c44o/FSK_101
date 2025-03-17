@@ -8,6 +8,7 @@ void setup()
 void loop() 
 {
   int sensorValue = AnalogRead(A0);
+  
   Serial.println(sensorValue);
   Serial.println(115);
   delay(100);
