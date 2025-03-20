@@ -22,8 +22,6 @@ void loop ()
   digitalWrite (greenLed, HIGH) ;
   delay (200) ;
   digitalWrite (greenLed, LOW) ;
-  digitalWrite (greenLed, HIGH) ;
-  delay (200) ;
-  digitalWrite (greenLed, LOW) ;
+
 }
 
