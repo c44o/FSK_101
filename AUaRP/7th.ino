@@ -29,8 +29,6 @@ void loop ()
         delay (2) ;
         digitalWrite (buzzer, HIGH) ;
         delay (10) ;
-        digitalWrite (buzzer, LOW) ;
-        delay (10) ;
       }
     }
 }
