@@ -14,7 +14,7 @@ void loop()
   for (int i = BASE; i <= BASE*NUM; i+=2) 
   {
     digitalWrite (i, LOW);
-    delay (200);
+    delay (250);
   }
 
   for (int i = BASE; i <= BASE * NUM; i+=2) 
