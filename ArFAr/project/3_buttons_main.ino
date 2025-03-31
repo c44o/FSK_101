@@ -11,7 +11,7 @@ void loop()
   
   Serial.println(sensorValue);
   
-  Serial.println(225);
+  Serial.println(235);
   
   delay(320);
 }
