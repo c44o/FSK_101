@@ -15,7 +15,7 @@ void loop ()
       }
       else 
       {
-        digitalWrite (8, LOW) ;
+        digitalWrite (18, LOW) ;
       }
     }
 }
