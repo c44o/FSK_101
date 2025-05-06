@@ -18,4 +18,16 @@ void digital_1 (void)
   digitalWrite(g, LOW);
   digitalWrite(dp, LOW);
 }
+
+void digital_2 (void) 
+{
+  digitalWrite(a, HIGH);
+  digitalWrite(b, HIGH);
+  digitalWrite(c, LOW);
+  digitalWrite(d, HIGH);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, LOW);
+  digitalWrite(g, HIGH);
+  digitalWrite(dp, LOW);
+}
   
