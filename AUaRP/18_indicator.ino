@@ -31,3 +31,14 @@ void digital_2 (void)
   digitalWrite(dp, LOW);
 }
   
+void digital_3 (void) 
+{
+  digitalWrite(a, HIGH);
+  digitalWrite(b, HIGH);
+  digitalWrite(c, HIGH);
+  digitalWrite(d, HIGH);
+  digitalWrite(e, LOW);
+  digitalWrite(f, LOW);
+  digitalWrite(g, HIGH);
+  digitalWrite(dp, LOW);
+}
