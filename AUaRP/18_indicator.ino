@@ -46,7 +46,7 @@ void digital_3 (void)
 void digital_4 (void) 
 {
   digitalWrite(a, LOW);
-  digitalWrite(b, HIGH);
+  digitalWrite(b, LOW);
   digitalWrite(c, HIGH);
   digitalWrite(d, LOW);
   digitalWrite(e, LOW);
