@@ -54,3 +54,15 @@ void digital_4 (void)
   digitalWrite(g, HIGH);
   digitalWrite(dp, LOW);
 }
+
+void digital_5 (void) 
+{
+  digitalWrite(a, HIGH);
+  digitalWrite(b, LOW);
+  digitalWrite(c, HIGH);
+  digitalWrite(d, HIGH);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, HIGH);
+  digitalWrite(g, HIGH);
+  digitalWrite(dp, LOW);
+}
