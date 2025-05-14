@@ -90,3 +90,15 @@ void digital_7 (void)
   digitalWrite(g, LOW);
   digitalWrite(dp, LOW);
 }
+
+void digital_7 (void) 
+{
+  digitalWrite(a, HIGH);
+  digitalWrite(b, HIGH);
+  digitalWrite(c, HIGH);
+  digitalWrite(d, HIGH);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, HIGH);
+  digitalWrite(g, HIGH);
+  digitalWrite(dp, LOW);
+}
