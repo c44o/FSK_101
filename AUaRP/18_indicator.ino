@@ -46,7 +46,7 @@ void digital_3 (void)
 void digital_4 (void) 
 {
   digitalWrite(a, LOW);
-  digitalWrite(b, LOW);
+  digitalWrite(b, HIGH);
   digitalWrite(c, HIGH);
   digitalWrite(d, LOW);
   digitalWrite(e, LOW);
@@ -84,14 +84,26 @@ void digital_7 (void)
   digitalWrite(a, HIGH);
   digitalWrite(b, HIGH);
   digitalWrite(c, HIGH);
-  digitalWrite(d, LOW);
-  digitalWrite(e, LOW);
-  digitalWrite(f, LOW);
-  digitalWrite(g, LOW);
+  digitalWrite(d, HIGH);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, HIGH);
+  digitalWrite(g, HIGH);
   digitalWrite(dp, LOW);
 }
 
 void digital_7 (void) 
+{
+  digitalWrite(a, HIGH);
+  digitalWrite(b, HIGH);
+  digitalWrite(c, HIGH);
+  digitalWrite(d, HIGH);
+  digitalWrite(e, HIGH);
+  digitalWrite(f, HIGH);
+  digitalWrite(g, HIGH);
+  digitalWrite(dp, LOW);
+}
+
+void digital_8 (void) 
 {
   digitalWrite(a, HIGH);
   digitalWrite(b, HIGH);
