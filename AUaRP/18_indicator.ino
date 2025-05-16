@@ -114,3 +114,10 @@ void digital_8 (void)
   digitalWrite(g, HIGH);
   digitalWrite(dp, LOW);
 }
+
+void setup() 
+{
+  int i ;
+  for (i = 4; i <= 11; i++) 
+  pinMode(i, OUTPUT) ;
+}
