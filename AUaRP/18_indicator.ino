@@ -121,3 +121,8 @@ void setup()
   for (i = 4; i <= 11; i++) 
   pinMode(i, OUTPUT) ;
 }
+
+void loop () {
+  while(1) {
+  }
+}
