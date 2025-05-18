@@ -9,7 +9,7 @@ int dp = 11;
 
 void digital_1 (void) 
 {
-  digitalWrite(a, LOW);
+  digitalWrite(a, HIGH);
   digitalWrite(b, HIGH);
   digitalWrite(c, HIGH);
   digitalWrite(d, LOW);
