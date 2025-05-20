@@ -18,4 +18,20 @@ int del = 55 ;
 
 void setup() 
 {
+  pinMode(d1, OUTPUT) ;
+  pinMode(d2, OUTPUT) ;
+  pinMode(d3, OUTPUT) ;
+  pinMode(d4, OUTPUT) ;
+  pinMode(a, OUTPUT) ;
+  pinMode(b, OUTPUT) ;
+  pinMode(c, OUTPUT) ;
+  pinMode(d, OUTPUT) ;
+  pinMode(e, OUTPUT) ;
+  pinMode(f, OUTPUT) ;
+  pinMode(g, OUTPUT) ;
+  pinMode(p, OUTPUT) ;
+}
+
+void loop() 
+{
 }
