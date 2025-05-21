@@ -34,4 +34,17 @@ void setup()
 
 void loop() 
 {
+  clearLEDs();
+}
+
+void clearLEDs() 
+{
+  digitalWrite(a, LOW);
+  digitalWrite(b, LOW);
+  digitalWrite(c, LOW);
+  digitalWrite(d, LOW);
+  digitalWrite(e, LOW);
+  digitalWrite(f, LOW);
+  digitalWrite(g, LOW);
+  digitalWrite(p, LOW);
 }
