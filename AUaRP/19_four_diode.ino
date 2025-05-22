@@ -35,6 +35,7 @@ void setup()
 void loop() 
 {
   clearLEDs();
+  pickDigit(1);
 }
 
 void clearLEDs() 
@@ -47,4 +48,28 @@ void clearLEDs()
   digitalWrite(f, LOW);
   digitalWrite(g, LOW);
   digitalWrite(p, LOW);
+}
+
+void pickDigit(int x)
+{
+  digitalWrite(d1, HIGH);
+  digitalWrite(d2, HIGH);
+  digitalWrite(d3, HIGH);
+  digitalWrite(d4, HIGH);
+
+  switch(x)
+  {
+  case 1:
+    digitalWrite(d1, LOW);
+    break;
+  case 2:
+    digitalWrite(d2, LOW);
+    break;
+  case 3:
+    digitalWrite(d3, LOW);
+    break;
+  case 4:
+    digitalWrite(d4, LOW);
+    break;
+  }
 }
