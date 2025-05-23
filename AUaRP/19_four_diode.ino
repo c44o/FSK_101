@@ -47,7 +47,7 @@ void clearLEDs()
   digitalWrite(e, LOW);
   digitalWrite(f, LOW);
   digitalWrite(g, LOW);
-  digitalWrite(p, LOW);
+  digitalWrite(p, HIGH);
 }
 
 void pickDigit(int x)
