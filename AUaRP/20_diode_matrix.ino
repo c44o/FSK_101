@@ -19,5 +19,16 @@ const int col8 = 13;
 void setup () {
 int i = 0;
   for (i = 2;  i<18; i++) {
+    pinMode (i, OUTPUT);
   }
+
+  pinMode (row5, OUTPUT);
+  pinMode (row6, OUTPUT);
+  pinMode (row7, OUTPUT);
+  pinMode (row8, OUTPUT);
+
+  for (i = 2;  i<18; i++) {
+    digitalWrite(i, LOW);
+  }
+  
 }
