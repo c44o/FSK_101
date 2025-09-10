@@ -7,9 +7,9 @@ const int row6 = 16;
 const int row7 = 15;
 const int row8 = 14;
 
-const int col1 = 6;
-const int col2 = 7;
-const int col3 = 8;
+const int col1 = 10;
+const int col2 = 12;
+const int col3 = 13;
 const int col4 = 9;
 const int col5 = 10;
 const int col6 = 11;
