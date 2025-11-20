@@ -26,6 +26,9 @@ case 2: strcpy (day, "Monday"); break;
 
 void setup ()
 {
+  Serial.begin (9600);
+  rtc.writeProtect (false);
+  rtc.halt (false);
 }
 
 void loop () ()
