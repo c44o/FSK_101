@@ -12,6 +12,7 @@ char day [10];
 String comdata = "";
 int numdata [7] = {0}, j = 0, mark = 0;
 
+
 DS1302 rtc (CE_PIN, IO_PIN, SCLK_PIN);
 void print_time ()
 {
