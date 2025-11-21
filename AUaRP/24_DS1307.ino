@@ -34,4 +34,26 @@ void setup ()
 
 void loop () ()
 {
+  while(Serial.available()>0)
+    {
+      comdata+=char(Serial.read());
+      delay(2);
+      mark=1;
+    }
+  if (mark==1) 
+  {
+    Serial.print("You inputed:");
+    Serial.println(comdata);
+    for(int i=0;i<comdata.length();i++)
+      {
+        if(comdata[i]==',',||comdata[i]==0x10||comdata[i]==0x13)
+        {
+          j++;
+        }
+        else
+        {
+          numdata[j]=numdata[j]*10+(comdata[i]-'0');
+        }
+      }
+  }
 }
