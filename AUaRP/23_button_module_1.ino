@@ -8,7 +8,6 @@ char keys [ROWS] [COLS] = {
 {'7', '8', '9', 'C'},
 {'*', '0', '#', 'D'}
 };
-
 byte rowPins [ROWS] = {2, 3, 4, 5};
 byte colPins [COLS] = {6, 7, 8, 9};
 
