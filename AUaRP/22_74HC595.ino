@@ -1,5 +1,5 @@
 int data = 2;
-int clock = 4;
+int clock = 5;
 int latch = 5;
 int lefState = 0;
 const int ON = HIGH;
