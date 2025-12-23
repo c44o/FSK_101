@@ -1,7 +1,7 @@
 int data = 2;
 int clock = 5;
 int latch = 5;
-int lefState = 1;
+int lefState = 0;
 const int ON = HIGH;
 const int OFF = LOW;
 void setup () {
